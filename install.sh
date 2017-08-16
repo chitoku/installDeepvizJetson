@@ -37,8 +37,7 @@ cd caffe
 git checkout a863549
 mkdir build
 cd build
-cmake ..
-ccmake .. # turn-on NO_NVML, turn off CUDA_USE_STATIC_CUDA_RUNTIME, [c] and [g] to generate
+cmake -D NO_NVML:BOOL="ON" ..
 make -j4
 sudo make install 
 
