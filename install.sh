@@ -7,6 +7,7 @@
 ## pwd 
 ##
 
+## Below code snippet from https://gist.github.com/cowboy/3118588
 # Might as well ask for password up-front, right?
 sudo -v
 

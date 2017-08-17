@@ -29,8 +29,8 @@ To install, run the installDeepvizJetson.sh script:
 
 ## Caution (For Jetson TX1)
 
-Note, on Jetson TX1, you need SD card (>= 16GB) or SSD to accomodate model and visualization images (downloaded by the script).
-After mounting SD card on Jetson TX1, move to the SD card directory, and then 
+Note, on Jetson TX1, you need a SD card (>= 16GB) or a SSD to accomodate model and visualization images (downloaded by the script).
+After mounting SD card on Jetson TX1, move to the SD card directory, and then run the install script.
 
     $ cd /media
     $ sudo mkdir sdcard
