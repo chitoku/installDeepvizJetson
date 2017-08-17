@@ -3,7 +3,7 @@ Install Deep Visualization Toolbox on the NVIDIA Jetson TX1/TX2 Development Kit.
 
 Deep Visualization Toolbox: Great tool to visualize how AlexNet classify images implemented by Jason Yosinski
 
-GitHub repository is here: https://github.com/yosinski/deep-visualization-toolbox
+GitHub repository is here: https://github.com/yosinski/deep-visualization-toolbox  
 Quick tour YouTube video (4 min) : https://www.youtube.com/watch?v=AgkfIQ4IGaM
 
 Scripts to install Deep Visualization Toolbox and dependencies on the NVIDIA Jetson TX1/TX2 Development Kit.
