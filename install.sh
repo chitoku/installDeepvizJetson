@@ -59,7 +59,7 @@ sed -i -e 's|/path/to/caffe|/home/nvidia/caffe|g' settings_local.py
 sudo cp /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc.orig
 # sudo vi /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
 # --> backend      : TkAgg
-sed -i -e 's|gtk3agg|TkAgg|g' /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
+sudo sed -i -e 's|gtk3agg|TkAgg|g' /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc
 # vi settings.py
 # --> USB cam number to 1
-sed -i -e "s|input_update_capture_device', 0|input_update_capture_device', 1|g" settings.py
+sed -i -e "s|input_updater_capture_device', 0|input_updater_capture_device', 1|g" settings.py
